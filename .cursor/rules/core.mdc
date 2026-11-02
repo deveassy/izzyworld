@@ -38,3 +38,10 @@ Planned (context only — do not install or implement unless requested): Java, S
 
 - Do not delete existing files or install new dependencies without approval.
 - Do not commit, push, or merge without explicit approval.
+
+## Commit Convention
+
+- Follow Conventional Commits: `<type>: <short description>`.
+- Allowed types: feat, fix, refactor, test, docs, chore.
+- Generate commit messages based on the actual changes.
+- Show the proposed commit message before committing.
