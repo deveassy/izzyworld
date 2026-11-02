@@ -1,0 +1,47 @@
+---
+description: Izzyworld project context, quality, workflow, and safety
+alwaysApply: true
+---
+
+# Izzyworld
+
+Izzyworld is an interactive personal website and developer portfolio.
+
+Current stack: Next.js (App Router), React, TypeScript, Tailwind CSS.
+
+Planned (context only — do not install or implement unless requested): Java, Spring Boot, PostgreSQL, Vitest, Playwright, Docker, GitHub Actions.
+
+## Code quality
+
+- Prioritize readability, maintainability, and type safety.
+- Follow existing conventions and TypeScript strict mode.
+- Avoid `any`, unnecessary abstractions, and extra dependencies.
+- Keep changes focused on the requested task.
+- Consider accessibility and performance where relevant.
+
+## Existing code
+
+- Preserve existing behavior unless explicitly instructed otherwise.
+- Before changing business logic, APIs, or established behavior: explain reason, impact, and risks, then wait for explicit approval.
+- Do not perform unrelated refactoring.
+
+## Workflow
+
+- Inspect relevant code before implementing.
+- For complex tasks, briefly explain the approach first.
+- Review the final diff for bugs, regressions, and unnecessary complexity.
+- Run available lint, type checks, and relevant tests. Fix failures and rerun affected checks.
+- Report changes, verification results, and remaining risks.
+- Never claim a check passed unless it was executed.
+
+## Safety
+
+- Do not delete existing files or install new dependencies without approval.
+- Do not commit, push, or merge without explicit approval.
+
+## Commit Convention
+
+- Follow Conventional Commits: `<type>: <short description>`.
+- Allowed types: feat, fix, refactor, test, docs, chore.
+- Generate commit messages based on the actual changes.
+- Show the proposed commit message before committing.
